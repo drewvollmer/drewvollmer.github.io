@@ -59,7 +59,7 @@ top-li a:hover {
   <!-- Navbar -->
   <div class="w3-bar w3-theme w3-left-align w3-large">
     <top-ul>
-      <top-li><a class="w3-bar-item w3-button w3-theme-11 w3-hover-white" href="site.html">Home</a></top-li>
+      <top-li><a class="w3-bar-item w3-button w3-theme-11 w3-hover-white" href="index.html">Home</a></top-li>
       <top-li><a href="cv.html" class="w3-bar-item w3-button w3-theme-11 w3-hover-white">CV</a></top-li>
       <top-li><a href="research.html" class="active w3-bar-item w3-button w3-theme-11 w3-hover-white">Research</a></top-li>
       <top-li><a href="teaching.html" class="w3-bar-item w3-button w3-theme-11 w3-hover-white">Teaching</a></top-li>
