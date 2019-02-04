@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Drew Vollmer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style_template_files/w3.css">
+<link rel="stylesheet" href="style_template_files/w3-theme-black.css">
+<link rel="stylesheet" href="style_template_files/font_roboto.css">
+<link rel="stylesheet" href="style_template_files/font-awesome.min.css">
+<style>
+  html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;
+  max-width: 1200px;
+  margin: auto;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+  }
+.left {
+ float: left;
+ padding: 0 20px 20px 0;
+}
+  .right {
+  float: right;
+  padding: 0 0 20px 20px;
+  }
+top-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  font-color: ffffff;
+}
+
+.top-li {
+  float: left;
+}
+
+top-li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+top-li a:hover {
+  background-color: #111;
+  }
+  .active {
+  background-color: #4484ce;
+}
+</style>
+<body>
+
+  <!-- Navbar -->
+  <div class="w3-bar w3-theme w3-left-align w3-large">
+    <top-ul>
+      <top-li><a class="active w3-bar-item w3-button w3-theme-11 w3-hover-white" href="index.html">Home</a></top-li>
+      <top-li><a href="cv.html" class="w3-bar-item w3-button w3-theme-11 w3-hover-white">CV</a></top-li>
+      <top-li><a href="research.html" class="w3-bar-item w3-button w3-theme-11 w3-hover-white">Research</a></top-li>
+      <top-li><a href="teaching.html" class="w3-bar-item w3-button w3-theme-11 w3-hover-white">Teaching</a></top-li>
+    </top-ul>
+  </div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:0px">
+
+  <div class="w3-row w3-padding-64">
+    <h1 style="color:#204a79;">Drew Vollmer</h1>
+
+    <img src="images/hideous_headshot.jpg" alt="Headshot" style="width:300px;height:300px" class="left">
+
+    <h5>
+      PhD Candidate<br>
+      Department of Economics, Duke University<br>
+    </h5>
+    <h5>
+      <a href="mailto:drew.vollmer@duke.edu">drew.vollmer@duke.edu</a>
+    </h5>
+
+    <p style="max-width:1000px">I'm an IO economist studying issues related to resale
+      markets.  My current topics of study are how the chance to
+      resell affects price discrimination and how competition affects
+      market outcomes when sellers use dynamic pricing.</p>
+
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4></h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<!-- <script> -->
+<!-- // Get the Sidebar -->
+<!-- var mySidebar = document.getElementById("mySidebar"); -->
+
+<!-- // Get the DIV with overlay effect -->
+<!-- var overlayBg = document.getElementById("myOverlay"); -->
+
+<!-- // Toggle between showing and hiding the sidebar, and add overlay effect -->
+<!-- function w3_open() { -->
+<!--   if (mySidebar.style.display === 'block') { -->
+<!--     mySidebar.style.display = 'none'; -->
+<!--     overlayBg.style.display = "none"; -->
+<!--   } else { -->
+<!--     mySidebar.style.display = 'block'; -->
+<!--     overlayBg.style.display = "block"; -->
+<!--   } -->
+<!-- } -->
+
+<!-- // Close the sidebar with the close button -->
+<!-- function w3_close() { -->
+<!--   mySidebar.style.display = "none"; -->
+<!--   overlayBg.style.display = "none"; -->
+<!-- } -->
+<!-- </script> -->
+
+</body>
+</html>
