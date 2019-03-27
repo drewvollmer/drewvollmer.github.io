@@ -72,14 +72,15 @@ top-li a:hover {
   <div class="w3-row w3-padding-64">
     <h1 style="color:#204a79;">Drew Vollmer</h1>
 
-    <img src="images/hideous_headshot.jpg" alt="Headshot" style="width:300px;height:300px" class="left">
+    <!-- <img src="images/hideous_headshot.jpg" alt="Headshot" style="width:300px;height:300px" class="left"> -->
+    <img src="images/hideous_headshot.jpg" alt="Headshot" style="width:150px;height:150px" class="left">
 
     <h5>
       PhD Candidate<br>
       Department of Economics, Duke University<br>
     </h5>
     <h5>
-      &#9993;<a href="mailto:drew.vollmer@duke.edu">drew.vollmer@duke.edu</a>
+      <a href="mailto:drew.vollmer@duke.edu">drew.vollmer@duke.edu</a>
     </h5>
 
     <p style="max-width:1000px">I'm an IO economist studying issues related to resale

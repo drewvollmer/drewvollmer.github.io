@@ -53,6 +53,12 @@ top-li a:hover {
   .active {
   background-color: #4484ce;
 }
+
+vgap {
+    content: " " !important;
+    display: block !important;
+    margin:16px;
+    }
 </style>
 <body>
 
@@ -69,11 +75,11 @@ top-li a:hover {
 <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
 <div class="w3-main" style="margin-left:0px">
 
-  <div class="w3-row w3-padding-64">
-    <h1 style="color:#204a79;">Drew Vollmer</h1>
-    <h1 style="color:#204a79;">Teaching</h1>
 
-    <br>
+  <div class="w3-row w3-padding-32">
+    <h1 style="color:#204a79;">Drew Vollmer</h1>
+    <vgap></vgap>
+    <h1 style="color:#204a79;">Teaching</h1>
 
     <ul>
       <li><a href="#statement">Teaching Statement</a></li>
@@ -82,7 +88,6 @@ top-li a:hover {
       <li><a href="#evaluations">Course Evaluations</a></li>
       <li><a href="#materials">Sample Materials</a></li>
     </ul>
-    <br>
 
     <div class="w3-twothird">
 
@@ -105,85 +110,59 @@ top-li a:hover {
       <h6 style="color:#204a79">Methods</h6>
 
       <p>
-        What should happen in the classroom to help students master
-        the economist's toolkit?  I rely on five strategies that I
-        used in my intermediate microeconomics course.
+        What methods help students master the economist's toolkit?  I
+        relied on five when teaching intermediate microeconomics.
       </p>
 
       <ol>
         <li> Clear explanations in lecture
           <p>
-            Clarity is easier said than done, but I have practiced the
-            skill since my high school days.  My approach is to
-            distill intuition to a few sentences and make it the
-            centerpiece of my presentation, as in the ``Intuition''
-            section of my notes explaining
-            the <a href="embedded_docs/cho_kreps_discussion.pdf">Cho-Kreps
-            intuitive criterion</a> for PhD micro.  Several course
-            evaluations[LINK] mention clear lectures.</p>
+            Clarity is my first priority when planning lectures.
+            Several course evaluations for intermediate micro mention
+            clear lectures.
+          </p>
         </li>
 
-        <li> Mastering basics in lecture: in-class practice problems
+        <li> In-class practice
           <p>
-            To help students understand new material, I asked them to
-            solve example problems in class.  The goal is for students
-            to think hard about models and diagnose their confusion
-            instead of hurriedly copying an example problem.  Students
-            worked on their own before discussing the problems in
-            small groups; I answered questions throughout.  The
-            problems energized students after sitting through lecture.
-            It also showed me what they found confusing, and gave me a
-            chance to help weaker students.
+            I often replace lectured examples with in-class exercises.
+            The exercises help students learn by giving them a chance
+            to practice new ideas and work through any confusion.
+            Students work on their own for a few minutes before their
+            solutions in small groups.  I monitor the groups and
+            answer questions throughout.
           </p>
         </li>
 
 
-        <li> Practicing and testing key skills: questions with a twist
+        <li> Questions with twists
           <p>
-            Problem sets set the tone for student learning: they are
-            the main source of practice and hint at what skills are
-            most important.  As a result, problem sets should push
-            students beyond basic calculations and ask them to assess
-            whether model assumptions are appropriate in a certain
-            context[LINK], or apply current skills in a new context by
-            putting a twist on familiar calculations.  For instance,
+            For students to master economic reasoning, they must
+            practice it.  On problem sets and exams, questions should
+            not only ask if students understand key models, but also
+            ask them to critique the models and apply them in new
+            ways.  For instance,
             in <a href="embedded_docs/final_sii18_solutions.pdf">question
-            5 of the final</a>, students must apply the principles of
-            decision making under risk&mdash;studied in insurance
+            5 of the final</a> asks students to apply the principles
+            of decision making under risk&mdash;studied in insurance
             markets&mdash;to a different, but economically equivalent
-            setting.
-          </p>
-
-          <p>
-            Exam questions play a similar role.  My exams began with
-            short answer questions, where students could only earn
-            credit by explaining why something is true.  The later
-            questions involved calculations.  Students first worked on
-            basic questions to establish that they understand the
-            model, but then deal with a twist like the ones on the
-            problem sets.  For an example, see
-            the <a href="embedded_docs/final_sii18_solutions.pdf">final
-            exam</a>.
+            setting.  The goal is to push students away from
+            memorization and towards economic reasoning.
           </p>
         </li>
 
-        <li> Targeting key skills in lecture: Stressing modeling
-        principles
+        <li> Emphasis on modeling principles
           <p>
-            As with the problem sets, lectures should emphasize the
-            major skills in the economist's toolkit.  To develop those
-            tools, I stressed that models share a common structure and
-            that methods of analysis often apply to many models.  For
-            example, students can memorize how to derive ordinary
-            demand in the consumer demand model, but it is more
-            important that they recognize the underlying principles:
-            the agent optimizes his objective subject to exogenous
-            constraints.
+            As with problem sets, lectures should explicitly emphasize
+            the skills most important for students.  Rather than just
+            present results for a series of models, the lecturer
+            should show how the models share a common structure, how
+            the same methods of analysis apply to each model, and how
+            the resulting equations have an economic interpretation.
           </p>
         </li>
 
-        <li> Making the course accessible: user-friendly background
-        material
+        <li> User-friendly background material
           <p>
             Intermediate micro relies heavily on calculus, but
             economics courses should be accessible for less prepared
@@ -223,10 +202,9 @@ top-li a:hover {
           plan to ask again during my next courses.</li>
 
         <li>Revising course materials: I followed a traditional
-          structure for my micro class, but I would like to tweak it
-          to emphasize types of analysis, like Nash equilibrium, that
-          are critical in economics but not required for the
-          major.</li>
+          structure for my micro class, but plan to tweak it to
+          emphasize types of analysis, like Nash equilibrium, that are
+          critical in economics but not required for the major.</li>
       </ul>
 
 
@@ -304,11 +282,11 @@ top-li a:hover {
       <h3 style="color:#204a79;">Course Evaluations</h3>
 
       <ul>
-        <li>Instructor, Intermediate Micro. with Calculus (ECON 205), Summer 2018</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="course_evals/course_eval_package_205.pdf#page=3">Instructor, Intermediate Micro. with Calculus (ECON 205), Summer 2018</a></li>
 
-        <li>Teaching Assistant, PhD Microeconomics II (ECON 705), Spring 2017</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="course_evals/Spring2017_Econ705_Vollmer.pdf">Teaching Assistant, PhD Microeconomics II (ECON 705), Spring 2017</a></li>
 
-        <li>Teaching Assistant, PhD Microeconomics I (ECON 701), Fall 2016</li>
+        <li><a target="_blank" rel="noopener noreferrer" href="course_evals/Vollmer,Andrew_ECON 701_TA Eval_Fall 2016.pdf">Teaching Assistant, PhD Microeconomics I (ECON 701), Fall 2016</a></li>
       </ul>
 
       <a name="materials"></a>

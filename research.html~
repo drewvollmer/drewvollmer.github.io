@@ -53,6 +53,12 @@ top-li a:hover {
   .active {
   background-color: #4484ce;
 }
+
+vgap {
+    content: " " !important;
+    display: block !important;
+    margin:16px;
+    }
 </style>
 <body>
 
@@ -69,9 +75,27 @@ top-li a:hover {
 <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
 <div class="w3-main" style="margin-left:0px">
 
-  <div class="w3-row w3-padding-64">
+  <div class="w3-row w3-padding-32">
     <h1 style="color:#204a79;">Drew Vollmer</h1>
+    <vgap></vgap>
     <h1 style="color:#204a79;">Research</h1>
+    <br>
+
+    <h5 style="color:#204a79;">Topics</h5>
+
+    <p>
+      My research considers the interaction of bundling and resale.
+    </p>
+
+    <h5 style="color:#204a79;">Projects</h5>
+
+    <ul>
+      <li>Bundling with Resale (<i>Working Paper</i>)</li>
+
+      <li>Bundling with Resale: An Application to College Football Ticket Sales (<i>In Progress</i>)</li>
+
+      <!-- <li>Competition Under Dynamic Pricing (<i>Preliminary</i>)</li> -->
+</ul>
 
     <!-- TODO -->
     <!-- - Research projects -->
