@@ -3,6 +3,7 @@
 <title>Drew Vollmer</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="embedded_docs/sd_curves.png">
 <link rel="stylesheet" href="style_template_files/w3.css">
 <link rel="stylesheet" href="style_template_files/w3-theme-black.css">
 <link rel="stylesheet" href="style_template_files/font_roboto.css">
@@ -89,14 +90,13 @@ vgap {
       <li><a href="#materials">Sample Materials</a></li>
     </ul>
 
-    <div class="w3-twothird">
+    <div class="w3-twothird w3-padding-16">
 
       <a name="statement"></a>
-      <h3 style="color:#204a79;">Teaching Statement</h3>
+      <h3 style="color:#204a79;">Teaching Statement</h3><br>
 
-      <br>
 
-      <h6 style="color:#204a79">Objectives</h6>
+      <h6 style="color:black">Objectives</h6>
 
       <p>
         What skills make an economist?  We don't passively accept
@@ -107,7 +107,7 @@ vgap {
       </p>
 
 
-      <h6 style="color:#204a79">Methods</h6>
+      <h6 style="color:black">Methods</h6>
 
       <p>
         What methods help students master the economist's toolkit?  I
@@ -176,7 +176,7 @@ vgap {
 
 
 
-      <h6 style="color:#204a79">Assessing Students</h6>
+      <h6 style="color:black">Assessing Students</h6>
 
       <ul>
         <li> In-class practice and discussions let me talk with
@@ -190,7 +190,7 @@ vgap {
 
 
 
-      <h6 style="color:#204a79">Improvement</h6>
+      <h6 style="color:black">Improvement</h6>
 
       <ul>
         <li>Professional development: I am enrolled in Duke's
@@ -264,7 +264,7 @@ vgap {
       <h3 style="color:#204a79;">Possible Courses</h3>
 
       <p>My expertise is in industrial organization and microeconomic
-        theory.  I would be able to teach:</p>
+        theory.  I would be able to teach</p>
 
       <ul>
         <li>Industrial organization (graduate and undergraduate)</li>
@@ -288,6 +288,14 @@ vgap {
 
         <li><a target="_blank" rel="noopener noreferrer" href="course_evals/Vollmer,Andrew_ECON 701_TA Eval_Fall 2016.pdf">Teaching Assistant, PhD Microeconomics I (ECON 701), Fall 2016</a></li>
       </ul>
+
+      The evaluations have given me pointers for how to improve.  For
+      example, problem sets hardly mattered to students' grades in
+      205, and some students thought this was unfair after the time
+      they spent on them.  Going forward, I plan to have problem sets
+      count towards students' grades.
+
+      <vgap></vgap>
 
       <a name="materials"></a>
       <h3 style="color:#204a79;">Sample Teaching Materials</h3>

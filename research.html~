@@ -3,6 +3,7 @@
 <title>Drew Vollmer</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="embedded_docs/sd_curves.png">
 <link rel="stylesheet" href="style_template_files/w3.css">
 <link rel="stylesheet" href="style_template_files/w3-theme-black.css">
 <link rel="stylesheet" href="style_template_files/font_roboto.css">
@@ -81,13 +82,13 @@ vgap {
     <h1 style="color:#204a79;">Research</h1>
     <br>
 
-    <h5 style="color:#204a79;">Topics</h5>
+    <h3 style="color:#204a79;">Topics</h3>
 
     <p>
       My research considers the interaction of bundling and resale.
     </p>
 
-    <h5 style="color:#204a79;">Projects</h5>
+    <h3 style="color:#204a79;">Projects</h3>
 
     <ul>
       <li>Bundling with Resale (<i>Working Paper</i>)</li>
