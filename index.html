@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Drew Vollmer</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Master Container -->
+    <div class="wrapper">
+
+      <!-- Header -->
+      <header>
+        <a href="index.html"><h1>Drew Vollmer</h1></a>
+        <!-- <h2>PH.D. CANDIDATE, DUKE UNIVERSITY</h2> -->
+      </header>
+
+      <!-- Navigation -->
+      <nav>
+        <!-- Mobile Menu Button -->
+        <a href="javascript:void(0)" onclick="myFunction()" id="menu_button">MENU</a>
+
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobile_nav">
+          <a href="index.html" class="mobile_link" id="start_mobile_link">HOME</a>
+          <a href="cv.html" class="mobile_link">CV</a>
+          <a href="research.html" class="mobile_link">RESEARCH</a>
+          <a href="teaching.html" class="mobile_link" id="end_mobile_link">TEACHING</a>
+        </div>
+
+        <!-- Web Navigation Links -->
+        <span id="nav_span">
+          <a href="index.html" class="web_link">HOME</a>
+          <a href="cv.html" class="web_link">CV</a>
+          <a href="research.html" class="web_link">RESEARCH</a>
+          <a href="teaching.html" class="web_link">TEACHING</a>
+        </span>
+
+      </nav>
+
+      <!-- Main -->
+      <main id="home">
+
+        <!-- Image -->
+        <img src="images/asv_headshot.jpg" id="home_image" alt="Drew Vollmer">
+
+        <!-- Welcome -->
+        <div id="welcome">
+          <p>
+            I am a job market candidate in economics at Duke
+            University.  My research interests are in industrial
+            organization, applied microeconomics, and microeconomic
+            theory.
+          </p>
+
+          <p style="margin-bottom:1cm;">
+            I will be available for interviews this winter.
+          </p>
+
+          <h5>CONTACT</h5>
+          drew.vollmer@duke.edu
+        </div>
+
+      </main>
+
+      <!-- Footer -->
+      <footer>
+        <a href="https://carmendolling.com" target="_blank">&copy; CSD, 2019</a>
+      </footer>
+
+    </div>
+
+    <script>
+      function myFunction() {
+      var x = document.getElementById("mobile_nav");
+      if (x.className.indexOf("mobile_nav_show") == -1) {
+      x.className += " mobile_nav_show";
+      } else {
+      x.className = x.className.replace(" mobile_nav_show", "");
+      }
+      }
+    </script>
+
+
+
+
+  </body>
+</html>

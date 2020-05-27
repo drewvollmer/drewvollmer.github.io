@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Drew Vollmer</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Lato&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Master Container -->
+    <div class="wrapper">
+
+      <!-- Header -->
+      <header>
+        <a href="index.html"><h1>Drew Vollmer</h1></a>
+        <!-- <h2>PH.D. CANDIDATE, DUKE UNIVERSITY</h2> -->
+      </header>
+
+      <!-- Navigation -->
+      <nav>
+        <!-- Mobile Menu Button -->
+        <a href="javascript:void(0)" onclick="myFunction()" id="menu_button">MENU</a>
+
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobile_nav">
+          <a href="index.html" class="mobile_link" id="start_mobile_link">HOME</a>
+          <a href="cv.html" class="mobile_link">CV</a>
+          <a href="research.html" class="mobile_link">RESEARCH</a>
+          <a href="teaching.html" class="mobile_link" id="end_mobile_link">TEACHING</a>
+        </div>
+
+        <!-- Web Navigation Links -->
+        <span id="nav_span">
+          <a href="index.html" class="web_link">HOME</a>
+          <a href="cv.html" class="web_link">CV</a>
+          <a href="research.html" class="web_link">RESEARCH</a>
+          <a href="teaching.html" class="web_link">TEACHING</a>
+        </span>
+      </nav>
+
+      <!-- Main -->
+      <main id="teaching">
+
+        <!-- Teaching -->
+        <div id="teaching_section">
+          <h3>Teaching Experience</h3>
+
+
+          <span style="display:inline-block;margin-left:1.5em;">
+
+            <b>Instructor, ECON 205D</b> (Intermediate Microeconomics with Calculus)<br>
+            Duke University, 2018<br>
+            <a href="embedded_docs/econ205_syllabus_sii18.pdf">Syllabus</a>
+            <p style="margin-bottom:1cm;">
+              Ran lecture and discussion, assigned problem sets, wrote
+              and graded exams, and held office hours.  13 students
+              (mainly economics majors).
+            </p>
+
+            <b>Teaching Assistant, ECON 701/705</b> (PhD Microeconomics)<br>
+            Duke University, 2016 &ndash; 2017
+            <p style="margin-bottom:1cm;">
+              Ran weekly discussion sections and office hours, graded
+              problem sets and exams, edited lecture notes, wrote exam
+              questions, and gave feedback on draft exams.  Coordinated
+              with instructor each week about course schedule, problem
+              sets, and questions on material.  Coordinated with another
+              TA weekly about discussion section content and grading.
+              701 had over 50 students (25 economics PhD students and 25
+              master's and other PhD students); 705 has 35 (25 and 10).
+            </p>
+
+
+            <b>Teaching Assistant, ECON 211 (Regression Analysis)</b><br>
+            Middlebury College, 2012
+
+            <p style="margin-bottom:1cm;">
+              Ran office hours and graded problem sets with one other
+              TA.  Met with faculty weekly to discuss problem sets and
+              solutions.  Course had about 60 students, mainly economics
+              majors.
+            </p>
+
+            <b>Peer Tutor/Head Math Tutor</b><br>
+            Middlebury College, 2010 &ndash; 2013
+
+            <p>Ran office hours for calculus I/II and intermediate
+              macro, tutored one-on-one for anything and everything
+              (most frequently intermediate macro and multivariable
+              calculus).  Organized the calculus tutoring schedule as
+              head math tutor from Fall 2012 to Spring 2013.
+            </p>
+
+          </span>
+
+          <h3>Course Evaluations</h3>
+
+          <ul>
+            <li><a target="_blank" rel="noopener noreferrer" href="course_evals/course_eval_package_205.pdf#page=3">Instructor, Intermediate Micro. with Calculus (ECON 205), Summer 2018</a></li>
+
+            <li><a target="_blank" rel="noopener noreferrer" href="course_evals/Spring2017_Econ705_Vollmer.pdf">Teaching Assistant, PhD Microeconomics II (ECON 705), Spring 2017</a></li>
+
+            <li><a target="_blank" rel="noopener noreferrer" href="course_evals/Vollmer,Andrew_ECON 701_TA Eval_Fall 2016.pdf">Teaching Assistant, PhD Microeconomics I (ECON 701), Fall 2016</a></li>
+          </ul>
+
+          <h3>Sample Teaching Materials</h3>
+
+          <ul>
+            <!-- <li><a target="_blank" rel="noopener noreferrer" href="embedded_docs/math_notation_techniques.pdf">Math reference for intermediate microeconomics</a></li> -->
+
+            <li><a target="_blank" rel="noopener noreferrer" href="embedded_docs/final_sii18_solutions.pdf">Final exam for intermediate microeconomics</a></li>
+
+            <li><a target="_blank" rel="noopener noreferrer" href="embedded_docs/cho_kreps_discussion.pdf">Cho-Kreps intuitive criterion notes for PhD microeconomics</a></li>
+
+            <li><a target="_blank" rel="noopener noreferrer" href="embedded_docs/lecture_21_22_recap.pdf">Review of signaling games and PBEs for PhD microeconomics</a></li>
+          </ul>
+
+
+      </main>
+
+      <!-- Footer -->
+      <footer>
+        <a href="https://carmendolling.com" target="_blank">&copy; CSD, 2019</a>
+      </footer>
+
+      </div>
+
+      <script>
+        function myFunction() {
+        var x = document.getElementById("mobile_nav");
+        if (x.className.indexOf("mobile_nav_show") == -1) {
+        x.className += " mobile_nav_show";
+        } else {
+        x.className = x.className.replace(" mobile_nav_show", "");
+        }
+        }
+      </script>
+
+
+
+
+  </body>
+</html>
