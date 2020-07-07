@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Drew Vollmer</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Lato&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Master Container -->
+    <div class="wrapper">
+
+      <!-- Header -->
+      <header>
+        <a href="index.html"><h1>Drew Vollmer</h1></a>
+        <!-- <h2>PH.D. CANDIDATE, DUKE UNIVERSITY</h2> -->
+      </header>
+
+      <!-- Navigation -->
+      <nav>
+        <!-- Mobile Menu Button -->
+        <a href="javascript:void(0)" onclick="myFunction()" id="menu_button">MENU</a>
+
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobile_nav">
+          <a href="index.html" class="mobile_link" id="start_mobile_link">HOME</a>
+          <a href="cv.html" class="mobile_link">CV</a>
+          <a href="research.html" class="mobile_link">RESEARCH</a>
+          <a href="teaching.html" class="mobile_link" id="end_mobile_link">TEACHING</a>
+          <a href="resources.html" class="mobile_link" id="end_mobile_link">RESOURCES</a>
+        </div>
+
+        <!-- Web Navigation Links -->
+        <span id="nav_span">
+          <a href="index.html" class="web_link">HOME</a>
+          <a href="cv.html" class="web_link">CV</a>
+          <a href="research.html" class="web_link">RESEARCH</a>
+          <a href="teaching.html" class="web_link">TEACHING</a>
+          <a href="resources.html" class="web_link">RESOURCES</a>
+        </span>
+      </nav>
+
+      <!-- Main -->
+      <main id="resources">
+
+        <!-- Teaching -->
+        <div id="resources_section">
+          <h3>Resources: Teaching</h3>
+
+
+          <span style="display:inline-block;margin-left:1.5em;">
+
+            <a href="resources/imd_math_primer.pdf">All the math you need for intermediate microeconomics</a><br>
+
+            <a href="resources/all_practice_problems_205.pdf">Vanilla practice problems for intermediate microeconomics</a> <a href="resources/all_practice_problem_solutions_205.pdf">[Solutions]</a><br>
+
+            <!-- Cho-Kreps notes -->
+
+          </span>
+
+
+
+          <h3>Resources: Computing</h3>
+
+          MATLAB: <a href="resources/get_permutations.m">all permutations of several vectors</a> (useful when forming grids)<br>
+
+          MATLAB: <a href="resources/next_greatest_in_set.m">efficiently
+          find next greatest element in set</a> (useful when trying to
+          find the right index for a value on a discrete grid)
+
+
+
+        </div>
+
+
+      </main>
+
+      <!-- Footer -->
+      <footer>
+        <a href="https://carmendolling.com" target="_blank">&copy; CSD, 2019</a>
+      </footer>
+
+      </div>
+
+      <script>
+        function myFunction() {
+        var x = document.getElementById("mobile_nav");
+        if (x.className.indexOf("mobile_nav_show") == -1) {
+        x.className += " mobile_nav_show";
+        } else {
+        x.className = x.className.replace(" mobile_nav_show", "");
+        }
+        }
+      </script>
+
+
+
+
+  </body>
+</html>
