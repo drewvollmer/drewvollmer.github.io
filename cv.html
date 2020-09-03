@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <title>Drew Vollmer</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <meta charset="UTF-8">
     <link rel="icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Lato&display=swap" rel="stylesheet">
-</head>
+  </head>
 
-<body>
+  <body>
 
-<!-- Master Container -->
-<div class="wrapper">
+    <!-- Master Container -->
+    <div class="wrapper">
 
-    <!-- Header -->
-    <header>
+      <!-- Header -->
+      <header>
         <a href="index.html"><h1>Drew Vollmer</h1></a>
         <!-- <h2>PH.D. CANDIDATE, DUKE UNIVERSITY</h2> -->
-    </header>
+      </header>
 
-    <!-- Navigation -->
-    <nav>
+      <!-- Navigation -->
+      <nav>
         <!-- Mobile Menu Button -->
         <a href="javascript:void(0)" onclick="myFunction()" id="menu_button">MENU</a>
 
@@ -43,48 +43,55 @@
           <a href="teaching.html" class="web_link">TEACHING</a>
           <a href="resources.html" class="web_link">RESOURCES</a>
         </span>
-    </nav>
+      </nav>
 
-    <!-- Main -->
-    <main id="cv">
+      <!-- Main -->
+      <main id="cv">
 
-      <div id="button">
+        <div id="cv_section">
+          <h3>CV</h3>
 
-        <a href="embedded_docs/vollmer_cv.pdf" target="_blank" rel="noopener noreferrer">
-            <div id="cv_button">
-              Open PDF in new tab
-            </div>
-        </a>
-      </div>
+          <!-- <div id="button"> -->
 
-      <div id="doc" style="position:relative; top:10px;">
+          <!--   <a href="embedded_docs/vollmer_cv.pdf" target="_blank" rel="noopener noreferrer"> -->
+          <!--       <div id="cv_button"> -->
+          <!--         Open PDF in new tab -->
+          <!--       </div> -->
+          <!--   </a> -->
+          <!-- </div> -->
+          <h4><u><a target="_blank" rel="noopener noreferrer" href="embedded_docs/vollmer_cv.pdf">Open in new tab</a><br></u></h4>
 
-        <iframe src="embedded_docs/vollmer_cv.pdf" width=900px height=1300px></iframe>
 
-      </div>
+          <div id="doc" style="position:relative; top:50px;">
 
-    </main>
+            <iframe src="embedded_docs/vollmer_cv.pdf" width=900px height=1300px></iframe>
 
-    <!-- Footer -->
-    <footer>
+          </div>
+
+        </div>
+
+      </main>
+
+      <!-- Footer -->
+      <footer>
         <a href="https://carmendolling.com" target="_blank">&copy; CSD, 2019</a>
-    </footer>
+      </footer>
 
-</div>
+    </div>
 
-<script>
-    function myFunction() {
-        var x = document.getElementById("mobile_nav");
-        if (x.className.indexOf("mobile_nav_show") == -1) {
-            x.className += " mobile_nav_show";
-        } else { 
-            x.className = x.className.replace(" mobile_nav_show", "");
-        }
-    }
-</script>
-
-
+    <script>
+      function myFunction() {
+      var x = document.getElementById("mobile_nav");
+      if (x.className.indexOf("mobile_nav_show") == -1) {
+      x.className += " mobile_nav_show";
+      } else {
+      x.className = x.className.replace(" mobile_nav_show", "");
+      }
+      }
+    </script>
 
 
-</body>
+
+
+  </body>
 </html>

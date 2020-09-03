@@ -207,10 +207,17 @@ main {
 /* CV */
 #cv {
     display: grid;
-    justify-content: center;
-    align-content: center;
-    "button"
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "cv_section"
     "doc"
+    /* display: grid; */
+    /* justify-content: center; */
+    /* align-content: center; */
+}
+#cv_section {
+    grid-area: cv_section;
 }
 #cv_button {
     width: 8em;
@@ -222,6 +229,9 @@ main {
 }
 #cv_button:hover {
     background: #4582a1;
+}
+#cv a {
+    color: #2d6886;
 }
 
 
@@ -248,6 +258,9 @@ main {
     grid-area: works_in_progress;
     display: none;
 }
+#research a {
+    color: #2d6886;
+}
 
 
 
@@ -268,6 +281,25 @@ main {
     margin: 2em 0 1em 0;
 }
 #teaching a {
+    color: #2d6886;
+}
+
+
+/* Resources */
+#resources {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "resources_section";
+}
+#resources_section {
+    grid-area: resources_section;
+}
+#resources_section h3 {
+    margin: 2em 0 1em 0;
+}
+#resources a {
     color: #2d6886;
 }
 
