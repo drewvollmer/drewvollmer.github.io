@@ -170,6 +170,7 @@ main {
     "image"
     "welcome";
 }
+/* Size edits for image are at bottom. Search home_image */
 #home_image {
     grid-area: image;
     border-radius: 3%;
@@ -180,7 +181,7 @@ main {
     margin: 1em auto 0em auto;
 }
 
-#welcome {
+#home_welcome {
     grid-area: welcome;
     font-size: .9em;
 }
@@ -376,7 +377,7 @@ footer {
         max-width: 35%;
         padding: 0;
         margin: 2em 0em 1em 2em;
-        max-height: 280px;
+        max-height: 1000px;
     }
     #welcome {
         margin: 2em 0 0 0;
