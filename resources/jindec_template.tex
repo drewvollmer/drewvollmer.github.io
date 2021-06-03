@@ -1,0 +1,133 @@
+% jindec_template.tex
+% With thanks to an anonymous internet post
+
+\documentclass[11pt, leqno]{article}
+
+\usepackage{amsfonts} % For \mathbb command
+\usepackage{amsmath} % for align
+\usepackage{amssymb}
+%\usepackage{amsthm} % for proof environment
+\usepackage[doublespacing]{setspace}
+\usepackage{geometry}
+\usepackage[square]{natbib}
+\usepackage[amsmath,thmmarks]{ntheorem} % format theorem styles. thmmarks for proof square
+% \usepackage{caption}
+% \captionsetup{labelformat=empty,labelsep=none}
+\usepackage[md, explicit]{titlesec} % for custom section headers
+\usepackage{titlecaps}
+
+%% Section title formatting
+\titleformat{\section}[block]{\Large\filcenter}{\thesection}{1em}{\MakeUppercase{#1}}
+\titleformat{\subsection}[block]{}{\thesubsection}{1em}{\itshape{#1}}
+
+\renewcommand{\thesection}{\Roman{section}.}
+\renewcommand{\thesubsection}{\Roman{section}(\roman{subsection}).}
+
+% But don't print a period after section numbers in the text
+\makeatletter
+\def\@gobbledot\csname thesection\endcsname{\Roman{section}}
+\renewcommand{\p@section}{\@gobbledot}
+\makeatother
+
+% Margins
+\geometry{left=1.25in,right=1.25in,top=1.25in,bottom=1.25in}
+
+% Theorem style
+\theoremheaderfont{\normalfont\itshape}
+\theorembodyfont{\normalfont}
+\theoremseparator{.}
+
+% Define the proof environment (since it's not in ntheorem and ntheorem is incompatible with amsthm)
+% (This code lifted directly from ntheorem, although it's not loaded as part of the package.)
+\makeatletter
+\newcommand{\openbox}{\leavevmode
+  \hbox to.77778em{%
+  \hfil\vrule
+  \vbox to.675em{\hrule width.6em\vfil\hrule}%
+  \vrule\hfil}}
+\gdef\proofSymbol{\openbox}
+\newcommand{\proofname}{Proof.}
+\newcounter{proof}\newcounter{currproofctr}\newcounter{endproofctr}%
+\newenvironment{proof}[1][\proofname]{
+  \th@nonumberplain
+  \def\theorem@headerfont{\itshape}%
+  \normalfont
+  \theoremsymbol{\ensuremath{_\blacksquare}}
+  \@thm{proof}{proof}{#1}}%
+  {\@endtheorem}
+\makeatother
+
+
+% No footrule for thanks on title page
+\renewcommand\footnoterule{}
+
+% Remove abstract label
+\renewcommand{\abstractname}{\vspace{-\baselineskip}}
+
+% Roman numeral table labels
+\renewcommand{\thetable}{\Roman{table}}
+
+% Environments
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+\newtheorem{assumption}{Assumption}
+\newtheorem{theorem}{Theorem}%[section]
+\newtheorem{proposition}{Proposition}%[section]
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+
+
+
+\begin{document}
+
+\title{\uppercase{Journal of Industrial Economics Paper}\thanks{Acknowledgements go here}}
+
+\author{\textsc{Author Name}\thanks{Author's affiliation:  \newline
+    \textit{e-mail: }}}
+
+% No date, and remove the empty line that's printed
+\date{\vspace{-5ex}}
+
+\maketitle
+
+\begin{abstract}
+  This is an abstract.
+\end{abstract}
+
+\section{Introduction}
+
+This is the main text.  It cites \citet{example}.
+
+\begin{theorem}
+  This is a statement.
+\end{theorem}
+
+\begin{proof}
+  This is incontrovertible evidence of the statement.
+\end{proof}
+
+\bibliographystyle{jindec}
+\bibliography{bib}
+
+\appendix
+
+
+% No page numbering for figures
+\clearpage
+\pagenumbering{gobble}
+
+\begin{figure}
+  \centering
+  \caption{An empty figure.}
+\end{figure}
+
+\clearpage
+
+\section{Supporting Information}
+
+Additional supporting information may be found in the online version
+of this article at \textit{http://wileyonlinelibrary.com/journal/joie}
+or via the Journal's website, \textit{http://www.jindec.org}
+
+\end{document}
