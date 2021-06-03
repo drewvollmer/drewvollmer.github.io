@@ -35,7 +35,6 @@
 *,v
 *.xls
 *.xlsx
-*.zip
 *.Z
 .Rhistory
 .Data
